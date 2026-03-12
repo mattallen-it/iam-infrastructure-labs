@@ -1,3 +1,35 @@
+# Lab-01-Identity-Infrastructure-Foundation
+
+Hands-on Identity and Access Management (IAM) lab series covering Hyper-V infrastructure, Active Directory, authentication, access control, and hybrid identity with Microsoft Entra ID.
+
+---
+
+## Lab Scope
+
+This foundational lab combines three infrastructure preparation stages:
+
+• Host virtualization readiness  
+• Hyper-V infrastructure configuration  
+• Windows Server domain controller deployment  
+
+These steps establish the environment required for building and managing an Active Directory identity infrastructure.
+
+---
+
+## Lab Environment
+
+Host Machine
+- Windows 11 Pro
+- AMD Ryzen 5 7600X3D
+- 32 GB RAM
+
+Virtualization Platform
+- Hyper-V
+
+Virtual Machine
+- Windows Server 2022
+- Domain Controller: DC01
+
 ## Lab Steps
 
 ### 1. Verified Host Hardware Specifications
