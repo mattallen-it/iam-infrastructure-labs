@@ -1,114 +1,69 @@
-# Lab 01 – Identity Infrastructure Foundation (Hyper-V + Windows Server)
-
-## Objective
-
-This lab establishes the infrastructure foundation required for Identity and Access Management (IAM).  
-A Windows Server virtual machine is deployed using Hyper-V to support future Active Directory and identity services.
-
----
-
-## Technologies Used
-
-- Windows 10/11 Pro
-- Hyper-V
-- Windows Server 2022
-- Snipping Tool
-- GitHub Documentation
-
----
-
-## Skills Demonstrated
-
-- Hyper-V infrastructure preparation
-- BitLocker and TPM verification
-- Virtual switch configuration
-- Virtual machine deployment
-- Windows Server ISO attachment
-- Infrastructure preparation for Active Directory
-
----
-
 ## Lab Steps
 
-### 1. Verified Hyper-V Installation
-
-![Hyper-V Enabled](screenshots/01-hyperv-enabled.png)
-
----
-
-### 2. Confirmed BitLocker / TPM Status
-
-![BitLocker Status](screenshots/02-bitlocker-status.png)
+### 1. Verified Host Hardware Specifications
+![Hardware Specs](screenshots/01-host-hardware-specs.png)
 
 ---
 
-### 3. Opened Virtual Switch Manager
-
-![Virtual Switch Manager](screenshots/03-virtual-switch-manager.png)
-
----
-
-### 4. Created External Virtual Switch
-
-![External Switch](screenshots/04-external-switch-created.png)
+### 2. Confirmed System Architecture
+![System Architecture](screenshots/02-host-system-architecture.png)
 
 ---
 
-### 5. Started New Virtual Machine Wizard
-
-![New VM Wizard](screenshots/05-new-vm-wizard.png)
-
----
-
-### 6. Selected VM Generation
-
-![VM Generation](screenshots/06-vm-generation.png)
+### 3. Verified Host Operating System Version
+![Host OS](screenshots/03-host-os-version.png)
 
 ---
 
-### 7. Configured Startup Memory
-
-![Memory Configuration](screenshots/07-memory-config.png)
-
----
-
-### 8. Configured Networking
-
-![Network Configuration](screenshots/08-network-config.png)
+### 4. Verified TPM Availability
+![TPM Ready](screenshots/04-tpm-ready.png)
 
 ---
 
-### 9. Configured Virtual Hard Disk
-
-![VHD Configuration](screenshots/09-vhd-config.png)
-
----
-
-### 10. Attached Windows Server ISO
-
-![ISO Attached](screenshots/10-windows-server-iso.png)
+### 5. Confirmed BitLocker Encryption
+![BitLocker Enabled](screenshots/05-bitlocker-enabled.png)
 
 ---
 
-### 11. Reviewed VM Summary
-
-![VM Summary](screenshots/11-vm-summary.png)
-
----
-
-### 12. Began Windows Server Installation
-
-![Windows Server Install](screenshots/12-windows-server-install.png)
+### 6. Verified CPU Virtualization Support
+![CPU Virtualization](screenshots/06-cpu-virtualization-enabled.png)
 
 ---
 
-## Outcome
-
-A Windows Server virtual machine was successfully deployed in Hyper-V.  
-This VM will serve as the foundation for the upcoming Active Directory and Identity Management labs.
+### 7. Confirmed Hyper-V Installation
+![HyperV Installed](screenshots/07-hyperv-installed.png)
 
 ---
 
-## Next Lab
+### 8. Opened Hyper-V Manager
+![HyperV Manager](screenshots/08-hyperv-manager-console.png)
 
-**Lab 02 – Active Directory Domain Deployment**
+---
+
+### 9. Created Internal Lab Network
+![Internal Network](screenshots/09-internal-network-created.png)
+
+---
+
+### 10. Created Hyper-V Lab Folder Structure
+![Folder Structure](screenshots/10-hyperv-folder-structure.png)
+
+---
+
+### 11. Configured Hyper-V Storage Paths
+![Storage Paths](screenshots/11-hyperv-storage-paths.png)
+
+---
+
+### 12. Prepared Windows Server 2022 Installation Media
+![Windows Server ISO](screenshots/12-windows-server-iso-ready.png)
+
+---
+
+### 13. Configured Domain Controller Virtual Machine
+![DC01 Config](screenshots/13-dc01-vm-configuration.png)
+
+---
+
+### 14. Created the DC01 Virtual Machine
+![DC01 Created](screenshots/14-dc01-vm-created.png)
