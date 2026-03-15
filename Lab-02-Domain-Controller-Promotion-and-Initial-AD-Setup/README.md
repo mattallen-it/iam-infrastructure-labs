@@ -66,10 +66,10 @@ Hyper-V Host
 ├ Active Directory Domain Services
 └ DNS
 
+---
+
 Note: the domain name used during the initial deployment was iamlab.local. 
 Future labs standardize the environment to mrtg.local for the Monroe Redstone Technology Group simulation.
-
----
 
 # Steps
 
