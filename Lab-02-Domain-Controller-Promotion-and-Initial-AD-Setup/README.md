@@ -51,7 +51,9 @@ Memory | 4 GB |
 Virtual Disk | 80 GB VHDX |
 Network | Hyper-V Internal Switch |
 Static IP | 192.168.10.10 |
-Domain | lab.local |
+| DC01 | Domain Controller |
+| CLIENT01 | Domain Workstation |
+| Domain | mrtg.local |
 
 ---
 
