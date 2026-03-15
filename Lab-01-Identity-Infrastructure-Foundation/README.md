@@ -1,6 +1,9 @@
 # Lab-01-Identity-Infrastructure-Foundation
 
 ![Lab Status](https://img.shields.io/badge/lab-foundation-blue)
+![Infrastructure](https://img.shields.io/badge/Infrastructure-Lab%20Foundation-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Hyper--V-blue)
+![OS](https://img.shields.io/badge/Client-Windows%2011-blue)
 
 Hands-on Identity and Access Management (IAM) lab series covering Hyper-V infrastructure, Active Directory, authentication, access control, and hybrid identity with Microsoft Entra ID.
 
