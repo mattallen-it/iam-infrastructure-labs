@@ -56,6 +56,7 @@ Client System
 CLIENT01 – Windows 11 Enterprise
 Domain-joined workstation used for user authentication and policy testing
 
+
 | Lab | Topic |
 |-----|------|
 | Lab 01 | Identity Infrastructure Foundation |
