@@ -55,6 +55,9 @@ Static IP | 192.168.10.10 |
 | CLIENT01 | Domain Workstation |
 | Domain | mrtg.local |
 
+Note: the domain name used during the initial deployment was iamlab.local. 
+Future labs standardize the environment to mrtg.local for the Monroe Redstone Technology Group simulation.
+
 ---
 
 # Architecture
@@ -67,9 +70,6 @@ Hyper-V Host
 └ DNS
 
 ---
-
-Note: the domain name used during the initial deployment was iamlab.local. 
-Future labs standardize the environment to mrtg.local for the Monroe Redstone Technology Group simulation.
 
 # Steps
 
