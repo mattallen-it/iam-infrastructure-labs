@@ -6,6 +6,12 @@
 ![IAM](https://img.shields.io/badge/focus-IAM-green)
 ![Level](https://img.shields.io/badge/level-foundation-lightgrey)
 
+Monroe Redstone Technology Group is deploying centralized identity infrastructure to support enterprise authentication, access control, and workstation management.
+
+To support this requirement, the organization is deploying an Active Directory domain controller for the internal domain:
+
+mrtg.local
+
 ## Objective
 Install Windows Server 2022 in Hyper-V, configure the server baseline, and promote the system to a Domain Controller hosting the initial Active Directory environment.
 
