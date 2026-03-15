@@ -7,4 +7,26 @@
 # iam-infrastructure-labs
 Hands-on Identity and Access Management (IAM) lab series covering Hyper-V infrastructure, Active Directory, authentication, access control, and hybrid identity with Microsoft Entra ID.
 
+Organization
+
 This repository documents a hands-on Identity and Access Management lab environment simulating enterprise identity infrastructure for Monroe Redstone Technology Group (MRTG).
+
+Domain
+
+mrtg.local
+
+Systems
+
+DC01      Domain Controller  
+CLIENT01  Domain Workstation
+
+| Lab | Topic |
+|-----|------|
+| Lab 01 | Identity Infrastructure Foundation |
+| Lab 02 | Active Directory Domain Deployment |
+| Lab 03 | Identity Lifecycle and RBAC |
+| Lab 04 | Group Policy Security Baselines |
+| Lab 05 | Domain Workstation Administration |
+| Lab 06 | Privileged Access Management |
+| Lab 07 | Hybrid Identity (Entra ID) |
+| Lab 08 | Identity Monitoring and Auditing |
