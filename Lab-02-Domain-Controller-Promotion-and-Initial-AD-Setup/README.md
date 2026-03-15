@@ -231,3 +231,47 @@ The command below confirms authentication against the Domain Controller.
 
 echo %logonserver%
 
+# Lab-02 — Domain Controller Baseline
+
+## Output
+
+![Logon Server](images/lab-02-20-logon-server-verification.png)
+
+---
+
+## 21. Create Post-Promotion Checkpoint
+
+A new Hyper-V checkpoint was created to serve as the **baseline state for future labs**.
+
+![Baseline Checkpoint](images/lab-02-21-post-ad-domain-controller-checkpoint.png)
+
+---
+
+## Outcome
+
+At the end of this lab:
+
+- Windows Server 2022 was successfully deployed
+- The server was renamed to **DC01**
+- A **static IP address** was configured
+- **Active Directory Domain Services (AD DS)** was installed
+- A new forest **lab.local** was created
+- DNS zones were automatically configured
+- The server now functions as the **Domain Controller**
+
+This environment now serves as the **identity infrastructure foundation** for future IAM labs.
+
+---
+
+## Next Lab
+
+**Lab-03 — Active Directory Identity Management**
+
+The next lab will expand the AD environment by introducing:
+
+- Organizational Units (OU structure)
+- User account creation
+- Security groups
+- Domain-joined client workstation
+- Basic identity and access management workflows
+
