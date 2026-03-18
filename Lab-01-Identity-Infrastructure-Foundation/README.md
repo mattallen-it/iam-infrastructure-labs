@@ -193,7 +193,7 @@ A new virtual machine named **MRTG-DC01** was created with the following configu
 
 The DC01 virtual machine was successfully created within the Hyper-V environment and is ready for Windows Server installation.
 
-![DC01 Created](screenshots/14_DC01_Created.png)
+![DC01 Created](screenshots/14_MRTG_DC01_Created.png)
 
 ---
 
