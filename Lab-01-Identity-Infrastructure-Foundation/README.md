@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Hyper--V-blue)
 ![OS](https://img.shields.io/badge/Client-Windows%2011-blue)
 
-Hands-on Identity and Access Management (IAM) lab series covering Hyper-V infrastructure, Active Directory, authentication, access control, and hybrid identity with Microsoft Entra ID.
+Establish a secure and scalable identity infrastructure foundation by preparing a virtualization environment to support Active Directory Domain Services for MRTG.
 
 ---
 
