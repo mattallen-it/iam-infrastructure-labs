@@ -22,7 +22,7 @@ Install Windows Server 2022 in Hyper-V, configure the server baseline, and promo
 ## Included
 - Windows Server 2022 installation in Hyper-V
 - Initial server login and baseline configuration
-- Hostname change to DC01
+- Hostname change to MRTG-DC01
 - Static IPv4 configuration
 - Hyper-V checkpoint creation
 - Active Directory Domain Services installation
@@ -44,14 +44,14 @@ Install Windows Server 2022 in Hyper-V, configure the server baseline, and promo
 |---|---|
 Host OS | Windows 11 Pro |
 Hypervisor | Hyper-V |
-Virtual Machine | DC01 |
+Virtual Machine | MRTG-DC01 |
 Guest OS | Windows Server 2022 Standard Evaluation (Desktop Experience) |
 VM Generation | Generation 2 |
-Memory | 4 GB |
+Memory | 8 GB |
 Virtual Disk | 80 GB VHDX |
 Network | Hyper-V Internal Switch |
 Static IP | 192.168.10.10 |
-| DC01 | Domain Controller |
+| MRTG-DC01 | Domain Controller |
 | CLIENT01 | Domain Workstation |
 | Domain | mrtg.local |
 
@@ -64,7 +64,7 @@ Future labs standardize the environment to mrtg.local for the Monroe Redstone Te
 
 Hyper-V Host
 │
-└── DC01
+└── MRTG-DC01
 ├ Windows Server 2022
 ├ Active Directory Domain Services
 └ DNS
