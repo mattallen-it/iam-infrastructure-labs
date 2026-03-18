@@ -198,11 +198,13 @@ The MRTG-DC01 virtual machine was successfully created within the Hyper-V enviro
 
 ---
 
-# Outcome
+## Outcome
 
-A Windows Server virtual machine (**DC01**) was successfully deployed within a Hyper-V virtualized environment.
+A Windows Server 2022 virtual machine (**MRTG-DC01**) was successfully deployed within an isolated Hyper-V environment.
 
-This system will serve as the **primary domain controller** for the IAM lab infrastructure and will be used to deploy Active Directory services in the next lab.
+This system establishes the foundational identity infrastructure layer and will be promoted to a Domain Controller in the next phase.
+
+The environment now supports the deployment of Active Directory Domain Services and centralized authentication within a controlled internal network.
 
 ---
 
