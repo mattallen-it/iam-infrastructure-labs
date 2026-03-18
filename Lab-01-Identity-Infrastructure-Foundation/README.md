@@ -69,6 +69,7 @@ This architecture establishes an isolated identity boundary for MRTG’s Active 
 - Hyper-V used as an isolation boundary for identity infrastructure testing
 - BitLocker verified to ensure host-level data protection
 - Standard user account configured for daily operations, with administrative access reserved for privileged tasks
+- Identity infrastructure is intentionally isolated to simulate enterprise trust boundaries and reduce attack surface
 
 # Lab Steps and Evidence
 
