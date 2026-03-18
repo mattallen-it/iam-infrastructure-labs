@@ -47,11 +47,19 @@ mrtg.local
 
 ## Architecture
 
-Host System  
-└── Hyper-V  
-  └── DC01 (Windows Server 2022)
+- Host System (Windows 11 Pro)
+  - Hyper-V enabled
+  - BitLocker enabled
 
-This virtual machine will serve as the **Active Directory Domain Controller** for future IAM labs.
+- Virtualization Layer
+  - Hyper-V Manager
+  - Internal Virtual Switch (for isolated lab network)
+
+- Virtual Machine
+  - DC01 (Windows Server 2022)
+  - Intended Role: Domain Controller (AD DS, DNS)
+
+This architecture establishes an isolated identity boundary for MRTG’s Active Directory infrastructure.
 
 ---
 
