@@ -37,7 +37,7 @@ These steps establish the environment required for building and managing an Acti
 
 ### Virtual Machine
 - Windows Server 2022
-- Domain Controller: **DC01**
+- Domain Controller: **MRTG-DC01**
 
 ## Domain
 
@@ -56,7 +56,7 @@ mrtg.local
   - Internal Virtual Switch (for isolated lab network)
 
 - Virtual Machine
-  - DC01 (Windows Server 2022)
+  - MRTG-DC01 (Windows Server 2022)
   - Intended Role: Domain Controller (AD DS, DNS)
 
 This architecture establishes an isolated identity boundary for MRTG’s Active Directory infrastructure.
@@ -191,7 +191,7 @@ A new virtual machine named **MRTG-DC01** was created with the following configu
 
 ### 14. Created the DC01 Virtual Machine
 
-The DC01 virtual machine was successfully created within the Hyper-V environment and is ready for Windows Server installation.
+The MRTG-DC01 virtual machine was successfully created within the Hyper-V environment and is ready for Windows Server installation.
 
 ![DC01 Created](screenshots/14_MRTG_DC01_Created.png)
 
