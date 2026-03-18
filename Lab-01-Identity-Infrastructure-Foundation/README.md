@@ -176,12 +176,14 @@ The Windows Server 2022 ISO image was downloaded and staged for deployment as th
 
 ### 13. Configured Domain Controller Virtual Machine
 
-A new virtual machine named **DC01** was created with the following configuration:
+A new virtual machine named **MRTG-DC01** was created with the following configuration:
 
 - Generation 2
-- 4096 MB RAM
-- Internal lab network
-- Dynamically expanding virtual disk
+- 8192 MB RAM (8 GB)
+- 2 vCPU
+- Internal virtual network (MRTG-Internal)
+- 80 GB dynamically expanding VHDX
+- Windows Server 2022 ISO attached for installation
 
 ![DC01 Config](screenshots/13_DC01_VM_Configuration.png)
 
