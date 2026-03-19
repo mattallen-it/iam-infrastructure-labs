@@ -105,7 +105,7 @@ AD-integrated DNS zones were automatically created during promotion.
 
 Critical `_msdcs` service records confirm proper domain controller registration.
 
-![DNS Records](./screenshots/06-dns-host-and-service-records.png)
+![DNS Records](./screenshots/06-dns-host-and-service-record.png)
 
 Host and service records validated within DNS.
 
