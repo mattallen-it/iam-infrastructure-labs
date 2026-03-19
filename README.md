@@ -34,9 +34,9 @@ mrtg.local (Active Directory domain)
 
 ## Systems
 
-MRTG-DC01 → Primary Domain Controller (AD DS, DNS)
+MRTG-DC01 → Primary Domain Controller (AD DS, DNS services)
 
-CLIENT01 → Domain-Joined Workstation
+CLIENT01 → Domain-Joined Workstation (Windows 11 Enterprise)
 
 ---
 
