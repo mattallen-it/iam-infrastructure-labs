@@ -28,7 +28,7 @@ The lab environment models a small-to-mid enterprise identity infrastructure inc
 
 ## Domain
 
-mrtg.local
+mrtg.local (Active Directory domain)
 
 ---
 
