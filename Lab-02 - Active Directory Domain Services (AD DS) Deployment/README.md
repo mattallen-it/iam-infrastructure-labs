@@ -60,17 +60,21 @@ This includes:
 | Domain | mrtg.local |
 
 ---
-
 ## Architecture
 
-The MRTG-DC01 server functions as the primary domain controller, hosting:
-- Active Directory Domain Services (AD DS)
-- DNS (Active Directory-integrated)
+The MRTG-DC01 server functions as the primary domain controller within the `mrtg.local` domain, hosting:
 
-This system acts as the centralized identity provider, responsible for:
+- Active Directory Domain Services (AD DS)
+- Active Directory-integrated DNS
+
+This system serves as the centralized identity provider, responsible for:
+
 - Authentication (Kerberos)
+- Authorization and access control
 - Directory object management
-- Access control enforcement
+- Service discovery via DNS
+
+This architecture establishes the foundation for identity and access management (IAM) within the enterprise environment.
 
 ---
 ## Deployment Phases
@@ -140,6 +144,7 @@ A Hyper-V checkpoint was created to preserve a stable domain controller baseline
 - Configured AD-integrated DNS
 - Validated authentication and name resolution
 - Created a reusable infrastructure baseline
+- Established a functional identity infrastructure aligned with enterprise IAM principles
 
 This environment serves as the identity foundation for future IAM labs.
 
