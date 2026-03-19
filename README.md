@@ -45,7 +45,7 @@ CLIENT01 → Domain-Joined Workstation
 |----------|-------------|
 | Hypervisor | Hyper-V (Windows 11 Pro) |
 | Domain Controller | **MRTG-DC01** — Windows Server 2022 |
-| Services | Active Directory Domain Services, DNS |
+| Services | Active Directory Domain Services (AD DS), DNS |
 | Client System | **CLIENT01** — Windows 11 Enterprise |
 
 ---
