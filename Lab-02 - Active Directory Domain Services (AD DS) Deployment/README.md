@@ -53,7 +53,7 @@ This includes:
 | OS | Windows Server 2022 Standard (Desktop Experience) |
 | Generation | Gen 2 |
 | Memory | 8 GB |
-| Disk | 60 GB |
+| Disk | 80 GB |
 | Network | Hyper-V Virtual Switch |
 | IP Address | 192.168.10.10 |
 | Role | Domain Controller |
