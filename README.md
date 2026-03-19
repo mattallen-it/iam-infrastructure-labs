@@ -34,10 +34,8 @@ mrtg.local
 
 ## Systems
 
-| System | Role |
-|------|------|
-| MRTG-DC01 | Domain Controller |
-| CLIENT01 | Domain Workstation |
+MRTG-DC01 → Primary Domain Controller (AD DS, DNS)
+CLIENT01 → Domain-Joined Workstation
 
 ---
 
