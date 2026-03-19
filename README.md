@@ -54,13 +54,14 @@ mrtg.local
 
 ## Identity Architecture
 
-Identity authentication and authorization follow a standard enterprise Active Directory model.
+Identity authentication and authorization are enforced through a centralized Active Directory Domain Services (AD DS) model, utilizing domain-joined systems, Kerberos-based authentication, and role-based access control (RBAC) via security groups.
 
+Access to resources is governed through:
+- Organizational Unit (OU) structure for policy scoping
+- Group Policy Objects (GPO) for configuration enforcement
+- Security groups for role-based access assignments
 
-User → Domain Workstation → Domain Controller → Resource Authorization
-
-
-CLIENT01 authenticates to **DC01 (Active Directory Domain Services)** to access controlled resources within the **mrtg.local** domain.
+This model aligns with enterprise IAM principles of least privilege, centralized identity control, and auditability.
 
 ---
 
