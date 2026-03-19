@@ -112,7 +112,7 @@ Critical service records (`_msdcs`) confirm domain controller service discovery.
 ---
 
 ### 6. Verify DNS Records
-![DNS Records](./screenshots/06-dns-host-and-service-records.png)
+![DNS Records](./screenshots/06-dns-host-and-service-record.png)
 
 Host and service records registered correctly in DNS.
 
