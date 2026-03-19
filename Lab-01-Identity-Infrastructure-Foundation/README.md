@@ -1,4 +1,4 @@
-# Lab-01-Identity-Infrastructure-Foundation
+# Lab-01 | Virtualization and Identity Infrastructure Foundation
 
 ![Lab Status](https://img.shields.io/badge/lab-foundation-blue)
 ![Infrastructure](https://img.shields.io/badge/Infrastructure-Lab%20Foundation-lightgrey)
