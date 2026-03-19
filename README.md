@@ -82,10 +82,12 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 
 ## Project Goal
 
-This lab series demonstrates practical Identity and Access Management skills used in enterprise and government-regulated environments, including:
+This lab series demonstrates practical Identity and Access Management (IAM) implementation within a simulated enterprise environment, aligned with real-world government and enterprise security practices.
 
+Key focus areas include:
 - Identity provisioning and lifecycle management
-- Role-based access control implementation
-- Directory administration
-- Security policy enforcement
-- Hybrid identity architecture
+- Role-based access control (RBAC) implementation
+- Directory services deployment and hardening
+- Group Policy-based security enforcement
+- Hybrid identity integration (Active Directory + Microsoft Entra ID)
+- Identity monitoring, logging, and auditing
