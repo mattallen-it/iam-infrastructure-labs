@@ -77,56 +77,56 @@ This system acts as the centralized identity provider, responsible for:
 ## Deployment Steps
 
 ### 1. Install AD DS Role
-![AD DS Role Installation](./01-ad-ds-role-installation.png)
+![AD DS Role Installation](./screenshots/01-ad-ds-role-installation.png)
 
 Active Directory Domain Services role installed using Server Manager.
 
 ---
 
 ### 2. Validate Prerequisites
-![Prerequisites Check](./02-ad-ds-prerequisites-check.png)
+![Prerequisites Check](./screenshots/02-ad-ds-prerequisites-check.png)
 
 Prerequisite validation completed successfully prior to promotion.
 
 ---
 
 ### 3. Create New Forest
-![New Forest Creation](./03-new-forest-mrtg-local.png)
+![New Forest Creation](./screenshots/03-new-forest-mrtg-local.png)
 
 New Active Directory forest created with root domain `mrtg.local`.
 
 ---
 
 ### 4. Verify DNS Zones
-![DNS Zones](./04-dns-zones-mrtg-local.png)
+![DNS Zones](./screenshots/04-dns-zones-mrtg-local.png)
 
 Forward lookup zones created and integrated with Active Directory.
 
 ---
 
 ### 5. Verify _msdcs Records
-![MSDCS Records](./05-dns-msdcs-service-records.png)
+![MSDCS Records](./screenshots/05-dns-msdcs-service-records.png)
 
 Critical service records (`_msdcs`) confirm domain controller service discovery.
 
 ---
 
 ### 6. Verify DNS Records
-![DNS Records](./06-dns-host-and-service-records.png)
+![DNS Records](./screenshots/06-dns-host-and-service-records.png)
 
 Host and service records registered correctly in DNS.
 
 ---
 
 ### 7. Validate Network Configuration
-![IP Configuration](./07-ipconfig-domain-controller.png)
+![IP Configuration](./screenshots/07-ipconfig-domain-controller.png)
 
 Static IP configuration verified, with DNS pointing to the domain controller.
 
 ---
 
 ### 8. Validate Authentication & Name Resolution
-![Authentication Validation](./08-domain-authentication-validation.png)
+![Authentication Validation](./screenshots/08-domain-authentication-validation.png)
 
 Successful domain authentication and DNS resolution:
 - `whoami` confirms domain context
@@ -135,7 +135,7 @@ Successful domain authentication and DNS resolution:
 ---
 
 ### 9. Create Post-Promotion Checkpoint
-![Checkpoint](./09-post-dc-promotion-checkpoint.png)
+![Checkpoint](./screenshots/09-post-dc-promotion-checkpoint.png)
 
 Hyper-V checkpoint created to preserve a stable domain controller baseline.
 
