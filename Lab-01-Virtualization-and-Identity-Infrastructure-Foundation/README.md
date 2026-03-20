@@ -213,9 +213,9 @@ The environment now supports the deployment of Active Directory Domain Services 
 
 ---
 
-# Next Lab
+## Next Lab
 
-[Lab 02 — Active Directory Domain Setup](../Lab-02-Active-Directory-Domain-Setup/README.md)
+[Lab 02 — Active Directory Domain Services (AD DS) Deployment](../Lab-02-Active-Directory-Domain-Services-Deployment/README.md)
 
 The next lab will cover:
 
