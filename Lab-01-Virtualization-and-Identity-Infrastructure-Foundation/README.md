@@ -31,25 +31,13 @@ These steps establish the environment required for building and managing an Acti
 
 ## Environment
 
-### Host Machine
-- Windows 11 Pro
-- AMD Ryzen 5 7600X3D
-- 32 GB RAM
-
-### Virtualization Platform
-- Hyper-V
-
-### Domain (Planned)
-
-### Virtual Machine
-
-- Name: MRTG-DC01  
-- Operating System: Windows Server 2022 Standard (Desktop Experience)  
-- Generation: Gen 2  
-- Memory: 8 GB (8192 MB)  
-- vCPU: 2  
-- Disk: 80 GB dynamically expanding VHDX  
-- Network: MRTG-Internal (Internal Virtual Switch) 
+| Component | Value |
+|----------|------|
+| Host OS | Windows 11 Pro |
+| Hypervisor | Hyper-V |
+| Domain Controller | Windows Server 2022 |
+| VM Count | 2 |
+| Network | Internal Virtual Switch |
 
 ---
 
