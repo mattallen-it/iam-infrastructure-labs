@@ -81,14 +81,6 @@ This architecture establishes the foundation for identity and access management 
 Active Directory Domain Services (AD DS) role installed using Server Manager.
 
 ---
-
-### Phase 2 — Prerequisite Validation
-![Prerequisites Check](./screenshots/02-ad-ds-prerequisites-check.png)
-
-Prerequisite checks completed successfully prior to domain controller promotion.
-
----
-
 ## Outcome
 
 - Successfully deployed AD DS domain (`mrtg.local`)
