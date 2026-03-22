@@ -1,5 +1,9 @@
 # Monroe Redstone Technology Group — IAM Lab Series
 
+![Focus](https://img.shields.io/badge/Career%20Track-Identity%20and%20Access%20Management-darkgreen)
+![Security](https://img.shields.io/badge/Certification-Security%2B-red)
+![Platform](https://img.shields.io/badge/Environment-Windows%20Enterprise-blue)
+
 This environment represents a simulated enterprise identity infrastructure for Monroe Redstone Technology Group (MRTG), designed to demonstrate real-world Identity and Access Management (IAM) practices within a Windows-based environment.
 
 The lab series focuses on building and managing Active Directory as an identity authority, implementing role-based access control (RBAC), enforcing Group Policy, and integrating hybrid identity with Microsoft Entra ID. Emphasis is placed on least privilege, identity lifecycle management, and auditing to align with enterprise and government security expectations.
@@ -7,10 +11,6 @@ The lab series focuses on building and managing Active Directory as an identity 
 ## Objective
 
 To design, implement, and secure an enterprise identity environment that reflects real-world IAM responsibilities in government and regulated IT environments.
-
-![Focus](https://img.shields.io/badge/Career%20Track-Identity%20and%20Access%20Management-darkgreen)
-![Security](https://img.shields.io/badge/Certification-Security%2B-red)
-![Platform](https://img.shields.io/badge/Environment-Windows%20Enterprise-blue)
 
 ## Organization
 
