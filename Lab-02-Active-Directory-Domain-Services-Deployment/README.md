@@ -82,6 +82,8 @@ Active Directory Domain Services (AD DS) role installed using Server Manager.
 - Prepared Windows Server for domain controller promotion
 - Installed required management tools for AD administration
 
+This system is now staged for domain controller promotion, which is completed in Lab 03.
+
 This lab establishes the infrastructure foundation required for centralized identity deployment in Lab 03.
 
 This environment serves as the identity foundation for future IAM labs.
