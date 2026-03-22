@@ -65,7 +65,7 @@ This establishes the identity control plane for MRTG.
 
 ### Phase 1 — Domain Controller Promotion
 
-![Domain Creation](./03-new-forest-mrtg-local.png)
+![Domain Creation](./screenshots/03-new-forest-mrtg-local.png)
 
 The server was promoted to a domain controller by creating a new Active Directory forest (`mrtg.local`).
 
@@ -73,7 +73,7 @@ The server was promoted to a domain controller by creating a new Active Director
 
 ### Phase 2 — Prerequisite Validation
 
-![Prerequisite Check](./02-ad-ds-prerequisites-check.png)
+![Prerequisite Check](./screenshots/02-ad-ds-prerequisites-check.png)
 
 Prerequisite checks were completed successfully prior to domain controller promotion.
 
@@ -81,7 +81,7 @@ Prerequisite checks were completed successfully prior to domain controller promo
 
 ### Phase 3 — DNS Configuration
 
-![DNS Zones](./04-dns-zones-mrtg-local.png)
+![DNS Zones](./screenshots/04-dns-zones-mrtg-local.png)
 
 AD-integrated DNS zones were automatically created during promotion, including the primary domain zone and `_msdcs` zone.
 
@@ -89,7 +89,7 @@ AD-integrated DNS zones were automatically created during promotion, including t
 
 ### Phase 4 — DNS Service Records Validation
 
-![DNS Records](./06-dns-host-and-service-record.png)
+![DNS Records](./screenshots/06-dns-host-and-service-record.png)
 
 DNS service records confirm proper domain controller registration and enable service discovery within the domain.
 
@@ -97,7 +97,7 @@ DNS service records confirm proper domain controller registration and enable ser
 
 ### Phase 5 — Network Configuration Validation
 
-![IP Configuration](./07-ipconfig-domain-controller.png)
+![Checkpoint](./screenshots/09-post-dc-promotion-checkpoint.png)
 
 Verified static IP configuration and confirmed the domain controller is using itself for DNS resolution.
 
