@@ -90,6 +90,12 @@ This environment serves as the identity foundation for future IAM labs.
 
 ---
 
+## Why This Matters
+
+Separating AD DS installation from domain controller promotion reflects real-world enterprise practices, where infrastructure preparation and identity activation are handled as distinct operational phases.
+
+This reduces risk and ensures controlled deployment of critical identity systems.
+
 ## Next Lab
 
 **Lab-03 — Active Directory Identity Management**
