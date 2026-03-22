@@ -94,6 +94,18 @@ This reduces risk and ensures controlled deployment of critical identity systems
 
 ## Next Lab
 
+### Lab-03 — Active Directory Domain Setup (Identity Authority Foundation)
+
+In the next lab, the server will be promoted to a Domain Controller, establishing the `mrtg.local` Active Directory domain as the centralized identity authority.
+
+### Planned focus:
+- Domain controller promotion (new forest)
+- DNS configuration (AD-integrated)
+- Authentication and name resolution validation
+- Domain controller health checks
+
+---
+
 ## Navigation
 
 - [← Previous: Lab-01 — Virtualization and Identity Infrastructure Foundation](../Lab-01-Virtualization-and-Identity-Infrastructure-Foundation)
