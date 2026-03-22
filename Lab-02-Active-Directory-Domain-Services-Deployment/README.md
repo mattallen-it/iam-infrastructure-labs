@@ -94,10 +94,7 @@ This reduces risk and ensures controlled deployment of critical identity systems
 
 ## Next Lab
 
-**Lab-03 — Active Directory Identity Management**
+## Navigation
 
-Planned focus:
-- Organizational Unit (OU) structure
-- User and group provisioning
-- Access control models
-- Introduction to Group Policy (GPO)
+- [← Previous: Lab-01 — Virtualization and Identity Infrastructure Foundation](../Lab-01-Virtualization-and-Identity-Infrastructure-Foundation)
+- [Next → Lab-03 — Active Directory Domain Setup](../Lab-03-Active-Directory-Domain-Setup)
