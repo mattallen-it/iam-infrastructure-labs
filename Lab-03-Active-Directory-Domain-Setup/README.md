@@ -69,6 +69,8 @@ This establishes the identity control plane for MRTG.
 
 The server was promoted to a domain controller by creating a new Active Directory forest (`mrtg.local`).
 
+This action establishes the Active Directory forest, which defines the security boundary and identity namespace for the environment.
+
 ---
 
 ### Phase 2 — Prerequisite Validation
@@ -84,6 +86,8 @@ Prerequisite checks were completed successfully prior to domain controller promo
 ![DNS Zones](./screenshots/04-dns-zones-mrtg-local.png)
 
 AD-integrated DNS zones were automatically created during promotion, including the primary domain zone and `_msdcs` zone.
+
+These zones enable domain controller discovery and are required for Kerberos authentication workflows.
 
 ---
 
@@ -107,7 +111,7 @@ Verified static IP configuration and confirmed the domain controller is using it
 
 ![Authentication Validation](./screenshots/08-domain-authentication-validation.png)
 
-Validated domain authentication and DNS resolution:
+Validated domain authentication context and DNS-based name resolution:
 
 - Successful domain login using `MRTG\Administrator`
 - Verified domain context (`whoami`, `%USERDOMAIN%`)
@@ -133,6 +137,8 @@ A Hyper-V checkpoint was created to preserve a stable domain controller baseline
 
 This lab establishes the identity control plane for MRTG, enabling centralized authentication and access control in subsequent labs.
 
+This system now functions as a trusted identity authority within the MRTG environment.
+
 ---
 
 ## Security Perspective
@@ -142,6 +148,8 @@ The domain controller is a Tier 0 asset and represents the core of enterprise id
 Active Directory relies on DNS for authentication workflows, making DNS configuration critical for both availability and security.
 
 Compromise of a domain controller results in full domain compromise, emphasizing the need for strict access control, monitoring, and hardening in production environments.
+
+Domain controllers must be treated as highly privileged systems (Tier 0) with restricted administrative access and continuous monitoring.
 
 ---
 
