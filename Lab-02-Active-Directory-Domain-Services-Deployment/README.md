@@ -7,6 +7,8 @@ Monroe Redstone Technology Group (MRTG) deployed a centralized identity infrastr
 
 This lab establishes a domain controller for the internal domain `mrtg.local`, forming the foundation for enterprise identity and access management.
 
+This lab focuses on infrastructure preparation, with domain creation and identity activation completed in the next phase.
+
 ---
 
 ## Objective
