@@ -29,7 +29,7 @@ These steps establish the environment required for building and managing an Acti
 
 ---
 
-## Lab Environment
+## Environment
 
 ### Host Machine
 - Windows 11 Pro
