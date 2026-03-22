@@ -71,6 +71,8 @@ The server was promoted to a domain controller by creating a new Active Director
 
 This action establishes the Active Directory forest, which defines the security boundary and identity namespace for the environment.
 
+This defines the Active Directory forest as the primary security boundary and identity namespace for MRTG.
+
 ---
 
 ### Phase 2 — Prerequisite Validation
@@ -87,7 +89,7 @@ Prerequisite checks were completed successfully prior to domain controller promo
 
 AD-integrated DNS zones were automatically created during promotion, including the primary domain zone and `_msdcs` zone.
 
-These zones enable domain controller discovery and are required for Kerberos authentication workflows.
+These DNS zones enable domain controller discovery and are required for Kerberos authentication and directory services functionality.
 
 ---
 
