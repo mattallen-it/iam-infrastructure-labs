@@ -76,6 +76,12 @@ This architecture establishes the foundation for identity and access management 
 ## Deployment Phases
 
 ### Phase 1 — AD DS Installation
+
+Active Directory Domain Services (AD DS) role was installed using Server Manager, including all required management tools.
+
+The server is now prepared for domain controller promotion, which will be completed in Lab 03.
+
+### Phase 1 — AD DS Installation
 ![AD DS Role Installation](./screenshots/01-ad-ds-role-installation.png)
 
 Active Directory Domain Services (AD DS) role installed using Server Manager.
@@ -83,12 +89,11 @@ Active Directory Domain Services (AD DS) role installed using Server Manager.
 ---
 ## Outcome
 
-- Successfully deployed AD DS domain (`mrtg.local`)
-- Established MRTG-DC01 as domain controller
-- Configured AD-integrated DNS
-- Validated authentication and name resolution
-- Created a reusable infrastructure baseline
-- Established a functional identity infrastructure aligned with enterprise IAM principles
+- Successfully installed Active Directory Domain Services (AD DS)
+- Prepared Windows Server for domain controller promotion
+- Installed required management tools for AD administration
+
+This lab establishes the infrastructure foundation required for centralized identity deployment in Lab 03.
 
 This environment serves as the identity foundation for future IAM labs.
 
