@@ -45,8 +45,8 @@ Deploy Active Directory Domain Services (AD DS) to prepare Windows Server for do
 | Disk | 80 GB |
 | Network | Hyper-V Virtual Switch |
 | IP Address | 192.168.10.10 |
-| Role | Domain Controller |
-| Domain | mrtg.local |
+| Role | Member Server (Pre-Domain Controller) |
+| Domain | N/A |
 
 ---
 ## Architecture
@@ -81,11 +81,6 @@ Active Directory Domain Services (AD DS) role installed using Server Manager.
 - Installed required management tools for AD administration
 
 This system is now staged for domain controller promotion, which is completed in Lab 03.
-
-This lab establishes the infrastructure foundation required for centralized identity deployment in Lab 03.
-
-This environment serves as the identity foundation for future IAM labs.
-
 ---
 
 ## Why This Matters
