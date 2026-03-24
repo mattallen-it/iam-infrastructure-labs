@@ -184,3 +184,43 @@ Validated policy application on CLIENT01:
 ```powershell
 gpupdate /force
 gpresult /r /scope computer
+
+## Outcome
+
+- Designed and implemented enterprise-style OU structure  
+- Organized users, devices, and accounts into logical containers  
+- Successfully domain-joined workstation  
+- Applied and validated GPO enforcement  
+- Established IAM policy baseline  
+
+---
+
+## Security Perspective
+
+- OU structure enables targeted policy enforcement and access control  
+- Proper device placement is required for GPO application  
+- Password and lockout policies provide baseline identity protection  
+- GPO centralizes security configuration across endpoints  
+- Misconfigured OU structure can create policy gaps and security risk  
+
+---
+
+## Key Takeaways
+
+- OU design directly impacts policy effectiveness  
+- GPO scope must align with object placement  
+- Identity security starts with password and lockout controls  
+- Validation (`gpresult`) is critical for confirming enforcement  
+
+---
+
+## Next Lab
+
+### Lab 05 – User and Group Lifecycle Management
+
+**Focus:**
+
+- Joiner / Mover / Leaver workflows  
+- Group-based access control (RBAC)  
+- Help desk IAM operations  
+- Identity lifecycle enforcement  
