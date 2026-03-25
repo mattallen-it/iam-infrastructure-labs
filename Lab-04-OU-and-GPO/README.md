@@ -1,4 +1,4 @@
-# Lab 04 — OU Design and Group Policy Implementation
+# Lab 04 — Organizational Unit (OU) Design and Group Policy
 
 ---
 
