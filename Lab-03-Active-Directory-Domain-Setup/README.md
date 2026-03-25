@@ -164,10 +164,11 @@ Domain controllers must be treated as highly privileged systems (Tier 0) with re
 
 ## Next Lab
 
-Lab 04 — Organizational Units (OU) Design and Group Policy
+[Lab 04 — Organizational Unit (OU) Design and Group Policy](../Lab-04-OU-and-GPO/README.md)
 
 Planned focus:
-- OU structure aligned to business roles
-- User and group provisioning
-- Access control modeling using security groups
-- Introduction to Group Policy (GPO)
+
+- Designing Organizational Unit (OU) structure aligned to business roles
+- Implementing departmental segmentation for identity organization
+- Creating and managing security groups for access control
+- Introducing Group Policy Objects (GPOs) for centralized policy enforcement
