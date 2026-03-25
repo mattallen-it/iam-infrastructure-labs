@@ -60,7 +60,7 @@ This architecture establishes an isolated identity boundary for the MRTG Active 
 
 The host system hardware was validated to ensure sufficient CPU and memory resources for virtualization workloads.
 
-![Host Hardware](images/host_hardware_verified.png)
+![Host Hardware](images/01_host_hardware_specs.png)
 
 ---
 
@@ -68,7 +68,7 @@ The host system hardware was validated to ensure sufficient CPU and memory resou
 
 The system architecture was verified to ensure a 64-bit operating system capable of supporting Hyper-V virtualization.
 
-![System Architecture](images/system_architecture_verified.png)
+![System Architecture](images/02_host_system_architecture.png)
 
 ---
 
@@ -76,7 +76,7 @@ The system architecture was verified to ensure a 64-bit operating system capable
 
 The host system is running Windows 11 Pro, which supports Hyper-V virtualization and enterprise security features.
 
-![OS Version](images/os_version_verified.png)
+![OS Version](images/03_host_os_version.png)
 
 ---
 
@@ -84,7 +84,7 @@ The host system is running Windows 11 Pro, which supports Hyper-V virtualization
 
 Trusted Platform Module (TPM) availability was confirmed to support hardware-based security features such as BitLocker.
 
-![TPM](images/tpm_verified.png)
+![TPM](images/04_tpm_ready.png)
 
 ---
 
@@ -92,7 +92,7 @@ Trusted Platform Module (TPM) availability was confirmed to support hardware-bas
 
 BitLocker encryption was verified on the operating system drive to ensure host system data protection.
 
-![BitLocker](images/bitlocker_verified.png)
+![BitLocker](images/05_bitlocker_enabled.png)
 
 ---
 
@@ -100,7 +100,7 @@ BitLocker encryption was verified on the operating system drive to ensure host s
 
 CPU virtualization support was confirmed to ensure the processor can support Hyper-V virtual machines.
 
-![CPU Virtualization](images/cpu_virtualization_verified.png)
+![CPU Virtualization](images/06_cpu_virtualization_enabled.png)
 
 ---
 
@@ -108,7 +108,7 @@ CPU virtualization support was confirmed to ensure the processor can support Hyp
 
 Hyper-V was verified as installed with both the platform and management tools enabled.
 
-![Hyper-V Installed](images/hyperv_installed.png)
+![Hyper-V Installed](images/07_hyperv_installed.png)
 
 ---
 
@@ -116,7 +116,7 @@ Hyper-V was verified as installed with both the platform and management tools en
 
 Hyper-V Manager was launched to begin configuring the virtualization environment.
 
-![Hyper-V Manager](images/hyperv_manager_opened.png)
+![Hyper-V Manager](images/08_hyperv_manager_console.png)
 
 ---
 
@@ -126,7 +126,7 @@ A dedicated internal virtual switch was created to isolate the lab network from 
 
 This allows domain services and authentication testing without impacting external systems.
 
-![Internal Switch](images/internal_network_created.png)
+![Internal Network](images/09_internal_network_created.png)
 
 ---
 
@@ -136,7 +136,7 @@ A dedicated folder structure was created on the LABS drive to organize virtual m
 
 This structure separates infrastructure resources from the host operating system.
 
-![Folder Structure](images/lab_folder_structure.png)
+![Folder Structure](images/10_hyperv_folder_structure.png)
 
 ---
 
@@ -146,7 +146,7 @@ Hyper-V default storage locations were configured to use the dedicated lab direc
 
 This ensures consistent storage management for future virtual machines.
 
-![Storage Paths](images/hyperv_storage_paths.png)
+![Storage Paths](images/11_hyperv_default_storage_paths.png)
 
 ---
 
@@ -154,7 +154,7 @@ This ensures consistent storage management for future virtual machines.
 
 The Windows Server 2022 ISO image was downloaded and staged for deployment as the domain controller.
 
-![ISO](images/windows_server_iso.png)
+![ISO](images/12_windows_server_iso_ready.png)
 
 ---
 
@@ -171,7 +171,7 @@ A new virtual machine named **MRTG-DC01** was created with the following configu
 
 This configuration establishes the baseline system that will later be promoted to a Domain Controller.
 
-![VM Config](images/dc_vm_configured.png)
+![VM Config](images/13_dc01_vm_configuration.png)
 
 ---
 
@@ -179,7 +179,7 @@ This configuration establishes the baseline system that will later be promoted t
 
 The MRTG-DC01 virtual machine was successfully created within the Hyper-V environment and is ready for Windows Server installation.
 
-![VM Created](images/dc_vm_created.png)
+![VM Created](images/14_mrtg_dc01_created.png)
 
 ---
 
