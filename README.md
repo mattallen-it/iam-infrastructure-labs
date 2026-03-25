@@ -83,10 +83,10 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 | [Lab-02 — Active Directory Domain Services (AD DS) Deployment](./Lab-02-AD-DS-Deployment/README.md) | Domain Infrastructure |
 | [Lab-03 — Active Directory Domain Setup (Identity Authority Foundation)](./Lab-03-AD-Setup/README.md) | Identity Foundation |
 | [Lab-04 — Organizational Unit (OU) Design and Group Policy](./Lab-04-OU-and-GPO/README.md) | Policy & Access Control |
-| Lab-05 *(Planned)* | User and Group Lifecycle Management |
-| Lab-06 *(Planned)* | NTFS Permissions vs Share Permissions |
-| Lab-07 *(Planned)* | Service Accounts and Delegation |
-| Lab-08 *(Planned)* | Identity Monitoring and Auditing |
+| Lab-05 — *(Planned)* | User and Group Lifecycle Management |
+| Lab-06 — *(Planned)* | NTFS Permissions vs Share Permissions |
+| Lab-07 — *(Planned)* | Service Accounts and Delegation |
+| Lab-08 — *(Planned)* | Identity Monitoring and Auditing |
 
 ---
 
@@ -95,13 +95,15 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 This lab series demonstrates practical Identity and Access Management (IAM) implementation within a simulated enterprise environment, aligned with real-world government and enterprise security practices.
 
 Key focus areas include:
-- Identity provisioning and lifecycle management
-- Role-based access control (RBAC) implementation
-- Directory services deployment and hardening
-- Group Policy-based security enforcement
-- Hybrid identity integration (Active Directory + Microsoft Entra ID)
-- Identity monitoring, logging, and auditing
+
+- Identity provisioning and lifecycle management  
+- Role-Based Access Control (RBAC) implementation  
+- Active Directory deployment and hardening  
+- Group Policy-based configuration enforcement  
+- Hybrid identity integration (Active Directory + Microsoft Entra ID)  
+- Identity monitoring, logging, and auditing  
 
 ## Quick Access
 
-- [Start with Lab 01](./Lab-01-Virtualization-and-Identity-Infrastructure-Foundation)
+- [Start with Lab-01](./Lab-01-Virtualization/README.md)
+- [Jump to Lab-04 (OU Design & GPO)](./Lab-04-OU-and-GPO/README.md)
