@@ -40,10 +40,11 @@ The environment is structured to reflect real-world enterprise identity architec
 
 ## Systems
 
-MRTG-DC01 → Primary Domain Controller (AD DS, DNS services)
+- **MRTG-DC01** — Domain Controller  
+  - Roles: Active Directory, DNS, Group Policy Management  
 
-CLIENT01 → Domain-Joined Workstation (Windows 11 Enterprise)
-
+- **CLIENT01** — Domain-Joined Workstation  
+  - Role: Endpoint used for policy enforcement and access validation  
 ---
 
 ## Infrastructure Architecture
