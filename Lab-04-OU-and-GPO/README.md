@@ -195,6 +195,7 @@ Final validation confirmed that both computer and user policies were successfull
 - Policy enforcement verified using `gpresult`
 - Visibility into applied and filtered policies ensures accountability and compliance
 
+---
 
 ## Outcome
 
