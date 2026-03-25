@@ -207,6 +207,18 @@ Final validation confirmed that both computer and user policies were successfull
 
 ---
 
+## Why This Matters
+
+Organizational Unit (OU) design and Group Policy enforcement form the foundation of identity-driven security in enterprise environments.
+
+By structuring identities through OUs and applying policies centrally, organizations can enforce consistent security controls, reduce administrative overhead, and minimize the risk of misconfigured systems.
+
+This model supports key IAM principles such as least privilege, role-based access control (RBAC), and centralized governance.
+
+In government and enterprise environments, Group Policy is a critical mechanism for enforcing security baselines, controlling user behavior, and ensuring compliance with regulatory standards.
+
+---
+
 ## Next Lab
 
 [Lab 05 — Hybrid Identity and Entra ID Integration](#)
