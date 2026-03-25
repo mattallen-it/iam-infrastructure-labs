@@ -101,7 +101,9 @@ Key focus areas include:
 - Active Directory deployment and hardening  
 - Group Policy-based configuration enforcement  
 - Hybrid identity integration (Active Directory + Microsoft Entra ID)  
-- Identity monitoring, logging, and auditing  
+- Identity monitoring, logging, and auditing
+
+---
 
 ## Quick Access
 
