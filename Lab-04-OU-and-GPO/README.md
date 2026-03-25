@@ -177,6 +177,25 @@ Final validation confirmed that both computer and user policies were successfull
 ![Final Validation](images/gpresult_final_validation.png)
 ---
 
+## Security & IAM Considerations
+
+### Identity-Based Policy Enforcement
+- Group Policy applied through Organizational Units (OUs) to enforce centralized control over users and devices
+- Separation of users, computers, and administrative accounts reduces risk and improves manageability
+
+### Access Control
+- Role-based access control (RBAC) implemented using security groups
+- Access to Remote Desktop was restricted and granted through group membership
+
+### Least Privilege
+- Standard user accounts used for daily operations
+- Administrative accounts separated to limit privilege escalation risk
+
+### Audit and Validation
+- Policy enforcement verified using `gpresult`
+- Visibility into applied and filtered policies ensures accountability and compliance
+
+
 ## Outcome
 
 - Successfully deployed and linked Group Policy Objects
