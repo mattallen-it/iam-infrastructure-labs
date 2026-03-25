@@ -32,7 +32,9 @@ The environment is structured to reflect real-world enterprise identity architec
 
 ## Domain
 
-mrtg.local (Active Directory domain)
+- **Domain Name:** mrtg.local  
+- **Directory Service:** Active Directory Domain Services (AD DS)  
+- **Authentication Model:** Kerberos-based domain authentication  
 
 ---
 
