@@ -13,19 +13,13 @@ Establish a secure and scalable identity infrastructure foundation by preparing 
 
 ---
 
-## Organization
+## Why This Matters
 
-Monroe Redstone Technology Group (MRTG)
+Establishing a properly configured virtualization and infrastructure foundation is critical for secure identity system deployment.
 
-## Scope
+In enterprise environments, identity services such as Active Directory must be deployed in controlled, isolated environments to prevent misconfiguration, reduce risk, and support consistent policy enforcement.
 
-This foundational lab combines three infrastructure preparation stages:
-
-• Host virtualization readiness  
-• Hyper-V infrastructure configuration  
-• Windows Server preparation for Active Directory Domain Controller deployment
-
-These steps establish the environment required for building and managing an Active Directory identity infrastructure.
+This lab lays the groundwork for centralized identity management, which will be expanded through domain services, access control, and policy enforcement in subsequent labs.
 
 ---
 
@@ -43,32 +37,33 @@ These steps establish the environment required for building and managing an Acti
 
 ## Architecture
 
-- Host System (Windows 11 Pro)
-  - Hyper-V enabled
-  - BitLocker enabled
+- **Host System:** Windows 11 Pro  
+  - Hyper-V enabled  
+  - BitLocker enabled  
 
-- Virtualization Layer
-  - Hyper-V Manager
-  - Internal Virtual Switch (for isolated lab network)
+- **Virtualization Layer:**  
+  - Hyper-V Manager  
+  - Internal Virtual Switch (isolated lab network)  
 
-- Intended Role: Domain Controller (Active Directory Domain Services, DNS)
-- Will serve as centralized identity provider for MRTG environment
+- **Planned Role:**  
+  - Domain Controller (AD DS, DNS)  
 
-This architecture establishes an isolated identity boundary for MRTG’s Active Directory infrastructure.
+This architecture establishes an isolated identity boundary for the MRTG Active Directory environment.
 
 ---
 
 ## Security Considerations
 
-- Enforced separation between host system and lab environment to prevent privilege crossover
-- Hyper-V used as an isolation boundary for identity infrastructure testing
-- BitLocker verified to ensure host-level data protection
-- Standard user account configured for daily operations, with administrative access reserved for privileged tasks
-- Identity infrastructure is intentionally isolated to simulate enterprise trust boundaries and reduce attack surface
+- Hyper-V used as an isolation boundary to separate host and lab environments  
+- BitLocker enabled to ensure host-level data protection  
+- Standard user account used for daily operations; administrative access restricted  
+- Lab environment isolated to simulate enterprise trust boundaries and reduce attack surface
+
+---
 
 # Lab Steps and Evidence
 
-### 1. Verified Host Hardware Specifications
+### 1. Verified Host Hardware
 
 The host system hardware was validated to ensure sufficient CPU and memory resources for running virtualization workloads.
 
