@@ -207,6 +207,13 @@ Final validation confirmed that both computer and user policies were successfull
 
 ---
 
-## Next Steps
+## Next Lab
 
-The next phase will extend identity management into hybrid environments by integrating Microsoft Entra ID and cloud-based identity controls.
+[Lab 05 — Hybrid Identity and Entra ID Integration](#)
+
+The next lab will cover:
+
+- Introduction to Microsoft Entra ID (Azure AD)
+- Synchronizing on-prem Active Directory with cloud identity
+- Implementing Hybrid Identity architecture
+- Enforcing Conditional Access policies
