@@ -10,6 +10,8 @@ This lab demonstrates how identity-driven policy enforcement is used to control 
 
 This approach aligns with enterprise security frameworks by ensuring consistent, auditable control over user sessions and endpoint configurations.
 
+This implementation ensures centralized, identity-driven enforcement of security policies across users and endpoints.
+
 ---
 
 ## Objective
@@ -32,13 +34,24 @@ This approach aligns with enterprise security frameworks by ensuring consistent,
 
 ---
 
-## Architecture 
+## Architecture
 
+### Core Systems
 - DC01 – Domain Controller (Active Directory, DNS, Group Policy Management)
 - CLIENT01 – Domain-joined workstation
 
-### Organizational Units (OU Structure)
+### Organizational Unit Structure
 - Users
 - Groups
 - Computers
-- Departments (HR, IT, Finance, Operations, Engineering)
+- Admin Accounts
+- Service Accounts
+
+### Departmental Segmentation
+- IT
+- Security
+- HR
+- Finance
+- Operations
+- Engineering
+- Executives
