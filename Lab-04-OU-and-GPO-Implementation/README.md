@@ -10,6 +10,8 @@ This lab demonstrates how identity-driven policy enforcement is used to control 
 
 The approach aligns with enterprise security frameworks by ensuring consistent, auditable control over user sessions and endpoint configurations.
 
+This lab introduces policy-based identity control through Organizational Units (OUs) and Group Policy Objects (GPOs).
+
 ---
 
 ## Objective
