@@ -8,9 +8,13 @@ This environment represents a simulated enterprise identity infrastructure for M
 
 The lab series focuses on building and managing Active Directory as an identity authority, implementing role-based access control (RBAC), enforcing Group Policy, and integrating hybrid identity with Microsoft Entra ID. Emphasis is placed on least privilege, identity lifecycle management, and auditing to align with enterprise and government security expectations.
 
+---
+
 ## Objective
 
 To design, implement, and secure an enterprise identity environment that reflects real-world IAM responsibilities in government and regulated IT environments.
+
+---
 
 ## Organization
 
