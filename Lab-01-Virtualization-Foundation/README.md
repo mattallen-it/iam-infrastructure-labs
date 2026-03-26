@@ -195,6 +195,8 @@ This system establishes the foundational identity infrastructure layer and will 
 
 The environment now supports the deployment of Active Directory Domain Services and centralized authentication within a controlled internal network.
 
+This environment now supports secure deployment of identity services, enabling controlled authentication and access management in subsequent labs.
+
 ---
 
 ## Next Lab
