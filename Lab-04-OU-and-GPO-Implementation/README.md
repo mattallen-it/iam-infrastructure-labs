@@ -157,9 +157,11 @@ The user was added to the appropriate security group to grant access.
 
 ### 13. Validated Access Control Enforcement (RDP Allowed)
 
-After group assignment and policy update, access was successfully granted.
+After group assignment and policy update, the user successfully authenticated and accessed the system via Remote Desktop.
 
-![RDP Access Granted](./images/step13_rdp_access_granted.png)
+The `whoami` command confirms the security context of the logged-in user.
+
+![RDP Successful Login](./images/step13_rdp_successful_login.png)
 
 ---
 
