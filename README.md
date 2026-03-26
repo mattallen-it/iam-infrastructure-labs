@@ -54,7 +54,7 @@ The environment is structured to reflect real-world enterprise identity architec
   - Roles: Active Directory, DNS, Group Policy Management  
 
 - **CLIENT01** — Domain-Joined Workstation  
-  - Role: Used to validate authentication, Group Policy enforcement, and access control scenarios
+  - Role: Used to validate authentication, Group Policy enforcement, and access control scenarios across the domain
 ---
 
 ## Infrastructure Architecture
@@ -83,6 +83,8 @@ Access to resources is governed through centralized identity-based policy enforc
 
 This model aligns with enterprise IAM principles of least privilege, centralized identity control, and auditability.
 
+This design reflects real-world enterprise IAM environments where identity is the primary security boundary.
+
 ---
 
 ## Lab Series Progression
@@ -90,7 +92,7 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 | Lab | Topic |
 |-----|------|
 | Lab-01 — Virtualization and Identity Infrastructure Foundation | Environment Buildout (Identity Infrastructure Foundation) |
-| Lab-02 — AD DS Installation | Identity Platform Deployment (Active Directory) |
+| Lab-02 — AD DS Deployment | Identity Platform Deployment (Active Directory) |
 | Lab-03 — Domain Controller Promotion | Identity Activation (Domain Services) |
 | Lab-04 — OU and GPO Implementation | Policy & Access Control (GPO Enforcement) |
 | Lab-05 — Identity Lifecycle Management | User & Group Management |
