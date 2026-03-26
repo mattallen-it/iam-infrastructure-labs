@@ -1,4 +1,4 @@
-# Lab-04 — OU and GPO Implementation
+# Lab-04 — OU and GPO Implementation (Policy Enforcement)
 
 ---
 
