@@ -75,7 +75,7 @@ Identity authentication and authorization are enforced through a centralized Act
 
 Authentication requests from domain-joined systems are processed by the domain controller using Kerberos, establishing trust and enabling secure access to domain resources.
 
-Access to resources is governed through:
+Access to resources is governed through identity-based policy enforcement, including:
 - Organizational Unit (OU) structure for policy scoping
 - Group Policy Objects (GPO) for configuration enforcement
 - Security groups for role-based access assignments
@@ -88,7 +88,7 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 
 | Lab | Topic |
 |-----|------|
-| Lab-01 — Virtualization Foundation | Environment Buildout (Identity Infrastructure Foundation) |
+| Lab-01 — Virtualization and Identity Infrastructure Foundation | Environment Buildout (Identity Infrastructure Foundation) |
 | Lab-02 — AD DS Installation | Identity Platform Deployment (Active Directory) |
 | Lab-03 — Domain Controller Promotion | Identity Activation (Domain Services) |
 | Lab-04 — OU and GPO Implementation | Policy & Access Control (GPO Enforcement) |
@@ -102,6 +102,8 @@ This model aligns with enterprise IAM principles of least privilege, centralized
 ## Project Goal
 
 This lab series demonstrates practical Identity and Access Management (IAM) implementation within a simulated enterprise environment, aligned with real-world government and enterprise security practices.
+
+This lab series demonstrates the ability to troubleshoot, validate, and enforce identity-based access control in a controlled enterprise environment.
 
 Key focus areas include:
 
