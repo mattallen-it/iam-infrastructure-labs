@@ -109,6 +109,8 @@ A session lock policy was applied to enforce workstation security.
 
 The MRTG-Workstation-Baseline GPO was linked to the Workstations OU to target domain-joined systems.
 
+Policies were applied based on OU membership, demonstrating identity-based policy targeting.
+
 ![GPO Linked](./images/step07_gpo_linked_to_ou.png)
 
 ---
@@ -137,7 +139,7 @@ User-level policies were confirmed to be successfully applied.
 
 ---
 
-### 11. Tested Access Control (RDP Denied)
+### 11. Tested Access Control Enforcement (RDP Denied)
 
 A user without proper group membership was denied Remote Desktop access.
 
@@ -153,7 +155,7 @@ The user was added to the appropriate security group to grant access.
 
 ---
 
-### 13. Validated Access Control (RDP Allowed)
+### 13. Validated Access Control Enforcement (RDP Allowed)
 
 After group assignment and policy update, access was successfully granted.
 
