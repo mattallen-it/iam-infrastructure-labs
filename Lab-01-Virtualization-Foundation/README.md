@@ -16,6 +16,8 @@ In enterprise environments, identity services such as Active Directory must be d
 
 This lab lays the groundwork for centralized identity management, which will be expanded through domain services, access control, and policy enforcement in subsequent labs.
 
+This foundation ensures that identity services such as Active Directory can be deployed in a controlled, secure environment where authentication and access control can be reliably enforced.
+
 ---
 
 ## Environment
