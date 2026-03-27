@@ -146,7 +146,7 @@ This environment now functions as the centralized identity authority, enabling K
 
 ## Next Lab
 
-[Lab-03 — AD Identity Structure](../Lab-03-AD-Identity-Structure)
+[Lab-03 — AD Identity Structure](../Lab-03-Domain-Controller-Promotion)
 
 The next lab will cover:
 
