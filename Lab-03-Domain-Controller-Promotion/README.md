@@ -160,6 +160,8 @@ Compromise of a domain controller results in full domain compromise, emphasizing
 
 Domain controllers must be treated as highly privileged systems (Tier 0) with restricted administrative access and continuous monitoring.
 
+All administrative access to domain controllers should be restricted, monitored, and separated from standard user operations to reduce risk of privilege escalation and domain compromise.
+
 ---
 
 ## Next Lab
