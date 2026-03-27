@@ -179,7 +179,7 @@ Administrative access to domain controllers should be restricted to dedicated pr
 
 Planned focus:
 
-- Designing Organizational Unit (OU) structure aligned to business roles
-- Implementing departmental segmentation for identity organization
-- Creating and managing security groups for access control
-- Introducing Group Policy Objects (GPOs) for centralized policy enforcement
+* Designing Organizational Unit (OU) structure aligned to business roles
+* Implementing identity segmentation using OU hierarchy
+* Enforcing security policies using Group Policy Objects (GPOs)
+* Applying access control through security group membership
