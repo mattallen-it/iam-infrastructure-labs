@@ -39,18 +39,101 @@ Without policy enforcement, identity systems become inconsistent and insecure.
 
 ## Architecture
 
-### Organizational Unit Structure
+### Identity Infrastructure
 
+* **Domain:** mrtg.local
+* **Domain Controller:** MRTG-DC01
+* **Directory Services:** Active Directory Domain Services (AD DS)
+* **Authentication Protocol:** Kerberos
+
+Active Directory serves as the centralized identity provider, handling authentication and authorization across all domain-joined systems.
+
+---
+
+### Organizational Unit (OU) Design
+
+The OU structure is aligned with business functions to enable targeted policy enforcement and administrative delegation.
+
+```
 mrtg.local
-│
 └── _MRTG
-├── Users
-├── Computers
-│ ├── Workstations
-│ └── Servers
-├── Groups
-├── Admin Accounts
-└── Service Accounts
+    ├── Users
+    │   ├── IT
+    │   ├── Security
+    │   ├── HR
+    │   ├── Finance
+    │   ├── Operations
+    │   ├── Engineering
+    │   └── Executives
+    ├── Computers
+    │   ├── Workstations
+    │   └── Servers
+    ├── Groups
+    ├── Admin Accounts
+    └── Service Accounts
+```
+
+This structure enables:
+
+* Policy targeting by role and device type
+* Separation of administrative responsibilities
+* Scalable identity management
+
+---
+
+### Group Policy Architecture
+
+Group Policy Objects (GPOs) are used to enforce security configurations at scale.
+
+* **Workstation Baseline GPO**
+
+  * Enforces password policy
+  * Enforces account lockout policy
+  * Applies user session lock controls
+
+* **Linking Strategy**
+
+  * GPO linked to **Workstations OU**
+  * Applies to domain-joined endpoints
+
+* **Scope & Filtering**
+
+  * Security filtering via **Authenticated Users**
+  * Ensures correct policy targeting
+
+---
+
+### Access Control Model
+
+Access is governed through **security group membership**, implementing Role-Based Access Control (RBAC).
+
+Example:
+
+* **GG_Remote_Desktop_Users**
+
+  * Grants RDP access to authorized users
+  * Assigned via group membership, not direct user permissions
+
+This ensures:
+
+* Centralized access management
+* Reduced administrative overhead
+* Consistent enforcement of least privilege
+
+---
+
+### Policy Enforcement Flow
+
+1. User logs into domain-joined system
+2. Authentication handled by Domain Controller (Kerberos)
+3. Applicable GPOs are retrieved and applied
+4. Access decisions enforced via:
+
+   * OU placement
+   * Group membership
+   * GPO configuration
+
+This model reflects real-world enterprise IAM environments where identity, policy, and access control are tightly integrated.
 
 ---
 
