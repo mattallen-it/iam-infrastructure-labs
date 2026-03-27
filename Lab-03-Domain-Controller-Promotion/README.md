@@ -70,7 +70,7 @@ This establishes the identity control plane for MRTG.
 
 ---
 
-## Deployment Phases
+## Identity Deployment Phases
 
 ### Phase 1 — Domain Controller Promotion
 
@@ -127,6 +127,7 @@ These validations confirm that authentication, authorization context, and DNS-ba
 - Successful domain login using `MRTG\Administrator`
 - Verified domain context (`whoami`, `%USERDOMAIN%`)
 - Confirmed name resolution using `ping mrtg.local`
+- Validated Kerberos authentication flow within domain context
 
 ---
 
@@ -145,6 +146,7 @@ A Hyper-V checkpoint was created to preserve a stable domain controller baseline
 - Configured AD-integrated DNS for service discovery
 - Validated authentication and domain connectivity
 - Verified domain controller configuration and network settings
+- - Established a functional Kerberos-based authentication environment with centralized identity control
 
 This environment now operates as a centralized identity control plane, supporting Kerberos-based authentication, directory-backed authorization, and reliable service discovery across domain-joined systems.
 
@@ -154,7 +156,7 @@ This environment now operates as a centralized identity control plane, supportin
 
 The domain controller is a Tier 0 asset and represents the core of enterprise identity infrastructure.
 
-Active Directory relies on DNS for authentication workflows, making DNS configuration critical for both availability and security.
+Active Directory authentication is dependent on DNS for service discovery (SRV records), making DNS integrity critical to identity security.
 
 Compromise of a domain controller results in full domain compromise, emphasizing the need for strict access control, monitoring, and hardening in production environments.
 
