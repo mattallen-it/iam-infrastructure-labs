@@ -6,6 +6,7 @@
 ![Directory](https://img.shields.io/badge/directory-Active%20Directory-blue)
 ![Auth](https://img.shields.io/badge/auth-Kerberos-orange)
 ![Security](https://img.shields.io/badge/security-Least%20Privilege-red)
+![Model](https://img.shields.io/badge/model-RBAC-purple)
 
 This project simulates a real-world enterprise Identity and Access Management (IAM) environment for Monroe Redstone Technology Group (MRTG).
 
