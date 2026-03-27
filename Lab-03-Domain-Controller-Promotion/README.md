@@ -60,7 +60,7 @@ The MRTG-DC01 server functions as the first domain controller within the `mrtg.l
 - Active Directory Domain Services (AD DS)
 - AD-integrated DNS
 
-This system acts as the centralized identity provider responsible for:
+This system functions as the authoritative identity provider (IdP) for MRTG, enforcing authentication and authorization decisions across the domain.
 
 - Authentication (Kerberos)
 - Authorization (security principals)
@@ -127,7 +127,7 @@ These validations confirm that authentication, authorization context, and DNS-ba
 - Successful domain login using `MRTG\Administrator`
 - Verified domain context (`whoami`, `%USERDOMAIN%`)
 - Confirmed name resolution using `ping mrtg.local`
-- Validated Kerberos authentication flow within domain context
+- Validated Kerberos-based authentication within domain context
 
 ---
 
@@ -139,14 +139,14 @@ A Hyper-V checkpoint was created to preserve a stable domain controller baseline
 
 ---
 
-## Outcome
+## Identity Outcome
 
 - Successfully promoted server to Domain Controller for `mrtg.local`
 - Established centralized identity authority using Active Directory
 - Configured AD-integrated DNS for service discovery
 - Validated authentication and domain connectivity
 - Verified domain controller configuration and network settings
-- - Established a functional Kerberos-based authentication environment with centralized identity control
+- Established a functional Kerberos-based authentication environment with centralized identity control
 
 This environment now operates as a centralized identity control plane, supporting Kerberos-based authentication, directory-backed authorization, and reliable service discovery across domain-joined systems.
 
@@ -163,6 +163,8 @@ Compromise of a domain controller results in full domain compromise, emphasizing
 Domain controllers must be treated as highly privileged systems (Tier 0) with restricted administrative access and continuous monitoring.
 
 All administrative access to domain controllers should be restricted, monitored, and separated from standard user operations to reduce risk of privilege escalation and domain compromise.
+
+Domain controllers should be isolated, hardened, and monitored as part of a privileged access management strategy.
 
 ---
 
