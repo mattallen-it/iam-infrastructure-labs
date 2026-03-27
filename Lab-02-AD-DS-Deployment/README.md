@@ -72,7 +72,7 @@ The Active Directory Domain Services role was installed to establish the identit
 ---
 
 ### 2. Prerequisites Check
-All prerequisite checks passed before promoting the server to a Domain Controller.
+All prerequisite checks were validated to ensure the system meets requirements for domain controller promotion and secure identity services deployment.
 
 ![AD DS Prerequisites Check](./images/02-ad-ds-prerequisites-check.png)
 
@@ -116,7 +116,7 @@ DNS configuration was verified using ipconfig /all to confirm the domain control
 ---
 
 ### 8. Created Post-Deployment Checkpoint
-A Hyper-V checkpoint was created after successful domain controller promotion.
+A Hyper-V checkpoint was created to preserve the post-deployment state, enabling rollback and controlled testing of identity configurations.
 
 ![Post DC Promotion Checkpoint](./images/09-post-dc-promotion-checkpoint.png)
 
