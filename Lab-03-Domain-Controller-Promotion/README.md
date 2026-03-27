@@ -1,11 +1,14 @@
 # Lab 03 — Domain Controller Promotion (Identity Activation)
 
-![Type](https://img.shields.io/badge/type-lab-1f2937?style=flat-square)
-![Technology](https://img.shields.io/badge/technology-Active%20Directory-1f2937?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Windows%20Server%202022-1f2937?style=flat-square)
-![Focus](https://img.shields.io/badge/focus-IAM-065f46?style=flat-square)
-![Domain](https://img.shields.io/badge/domain-Identity-4c1d95?style=flat-square)
-![Level](https://img.shields.io/badge/level-Foundation-6b7280?style=flat-square)
+![Type](https://img.shields.io/badge/type-lab-blue)
+![Track](https://img.shields.io/badge/track-IAM-green)
+![Technology](https://img.shields.io/badge/technology-Active%20Directory-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%20Server%202022-lightgrey)
+![Domain](https://img.shields.io/badge/domain-mrtg.local-purple)
+![Auth](https://img.shields.io/badge/auth-Kerberos-orange)
+![Focus](https://img.shields.io/badge/focus-Identity%20Activation-yellow)
+![Level](https://img.shields.io/badge/level-Foundation-darkblue)
+![Role](https://img.shields.io/badge/role-Domain%20Controller-critical)
 
 ## Overview
 
