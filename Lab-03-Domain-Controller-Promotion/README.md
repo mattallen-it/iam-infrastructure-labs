@@ -74,7 +74,7 @@ This establishes the identity control plane for MRTG.
 
 ### Phase 1 — Domain Controller Promotion
 
-![Domain Creation](./screenshots/03-new-forest-mrtg-local.png)
+![New Forest](images/03-new-forest-mrtg-local.png)
 
 The server was promoted to a domain controller by creating a new Active Directory forest (`mrtg.local`).
 
@@ -86,7 +86,7 @@ This defines the Active Directory forest as the primary security boundary and id
 
 ### Phase 2 — Prerequisite Validation
 
-![Prerequisite Check](./screenshots/02-ad-ds-prerequisites-check.png)
+![AD DS Prerequisites](images/02-ad-ds-prerequisites-check.png)
 
 Prerequisite checks were validated to ensure the system meets requirements for secure domain controller promotion and identity service deployment.
 
@@ -94,7 +94,7 @@ Prerequisite checks were validated to ensure the system meets requirements for s
 
 ### Phase 3 — DNS Configuration
 
-![DNS Zones](./screenshots/04-dns-zones-mrtg-local.png)
+![DNS Zones](images/04-dns-zones-mrtg-local.png)
 
 AD-integrated DNS zones were automatically created during promotion, including the primary domain zone and `_msdcs` zone.
 
@@ -104,7 +104,7 @@ These DNS zones enable domain controller discovery and are required for Kerberos
 
 ### Phase 4 — DNS Service Records Validation
 
-![DNS Records](./screenshots/06-dns-host-and-service-record.png)
+![DNS Records](images/06-dns-host-and-service-record.png)
 
 DNS service records confirm proper domain controller registration and enable service discovery within the domain.
 
@@ -112,7 +112,7 @@ DNS service records confirm proper domain controller registration and enable ser
 
 ### Phase 5 — Network Configuration Validation
 
-![IP Configuration](./screenshots/07-ipconfig-domain-controller.png)
+![IP Config](images/07-ipconfig-domain-controller.png)
 
 Validated static IP configuration and confirmed the domain controller is configured to use itself for DNS resolution.
 
@@ -120,7 +120,7 @@ Validated static IP configuration and confirmed the domain controller is configu
 
 ### Phase 6 — Authentication and Name Resolution Validation
 
-![Authentication Validation](./screenshots/08-domain-authentication-validation.png)
+![Authentication Validation](images/08-domain-authentication-validation.png)
 
 These validations confirm that authentication, authorization context, and DNS-based service discovery are functioning correctly across the domain.
 
@@ -132,7 +132,7 @@ These validations confirm that authentication, authorization context, and DNS-ba
 
 ### Phase 7 — Infrastructure Baseline Checkpoint
 
-![Checkpoint](./screenshots/09-post-dc-promotion-checkpoint.png)
+![Checkpoint](images/09-post-dc-promotion-checkpoint.png)
 
 A Hyper-V checkpoint was created to preserve a stable domain controller baseline for future labs.
 
