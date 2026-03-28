@@ -99,7 +99,7 @@ This architecture supports:
 - Least privilege  
 - Centralized identity governance  
 - Policy-driven enforcement  
-- Auditability  
+- Auditability
 
 ---
 
@@ -118,7 +118,7 @@ This architecture supports:
 
 ---
 
-## Project Goal
+## Enterprise IAM Objectives
 
 This lab series demonstrates structured IAM implementation within an enterprise environment.
 
