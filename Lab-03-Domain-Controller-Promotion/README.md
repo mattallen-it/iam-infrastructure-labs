@@ -71,35 +71,35 @@ This system operates as the authoritative identity provider (IdP) for MRTG.
 ## Identity Activation Phases
 
 ### Phase 1 — Domain Controller Promotion
-![Forest Creation](images/01-new-forest-mrtg-local.png)
+![Forest Creation](images/03-new-forest-mrtg-local.png)
 
 The server was promoted to Domain Controller, establishing **mrtg.local** as the forest root.
 
 ---
 
 ### Phase 2 — DNS Validation
-![DNS Zones](images/02-dns-zones-mrtg-local.png)
+![DNS Zones](images/04-dns-zones-mrtg-local.png)
 
 Validated AD-integrated DNS zones required for authentication and service discovery.
 
 ---
 
 ### Phase 3 — Service Record Validation
-![DNS Records](images/03-dns-host-and-service-record.png)
+![DNS Records](images/06-dns-host-and-service-record.png)
 
 Confirmed SRV and host records for domain controller registration.
 
 ---
 
 ### Phase 4 — Network Configuration Validation
-![IP Config](images/04-ipconfig-domain-controller.png)
+![IP Config](images/07-ipconfig-domain-controller.png)
 
 Validated static IP configuration and authoritative DNS self-reference.
 
 ---
 
 ### Phase 5 — Authentication & Resolution Validation
-![Authentication Validation](images/05-domain-authentication-validation.png)
+![Authentication Validation](images/08-domain-authentication-validation.png)
 
 Validated:
 
@@ -111,7 +111,7 @@ Validated:
 ---
 
 ### Phase 6 — Infrastructure Baseline Checkpoint
-![Checkpoint](images/06-post-dc-promotion-checkpoint.png)
+![Checkpoint](images/09-post-dc-promotion-checkpoint.png)
 
 A Hyper-V checkpoint was created to preserve a stable domain controller baseline.
 
