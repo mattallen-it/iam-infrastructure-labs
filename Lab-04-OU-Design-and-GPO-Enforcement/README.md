@@ -208,10 +208,14 @@ This reflects real-world enterprise IAM environments.
 
 ### 9. Validated Computer Policy Application
 
+---
+
 Validated using:
 
+```powershell
 gpresult /r
-
+```
+---
 
 ![Computer Policy Applied](images/step09_computer_policy_applied.png)
 
