@@ -8,9 +8,9 @@
 
 ---
 
-This project simulates a real-world enterprise Identity and Access Management (IAM) environment for Monroe Redstone Technology Group (MRTG).
+This project simulates a structured enterprise Identity and Access Management (IAM) environment for Monroe Redstone Technology Group (MRTG).
 
-The lab series demonstrates how identity systems are built, secured, and managed using Active Directory, including:
+The lab series demonstrates how identity infrastructure is deployed, governed, and secured using Active Directory, with emphasis on policy enforcement, role-based access control (RBAC), and auditability in regulated environments.
 
 - Role-based access control (RBAC)
 - Organizational Unit (OU) design
@@ -88,18 +88,18 @@ This architecture reflects enterprise IAM deployment practices in regulated envi
 
 ## Identity Architecture
 
-Identity authentication and authorization are centralized through Active Directory.
+Authentication and authorization are centralized through Active Directory Domain Services (AD DS).
 
-Access to resources is governed through:
+Access control is enforced through:
 
 - Organizational Unit (OU) structure for policy scoping
 - Group Policy Objects (GPO) for configuration enforcement
-- Security groups for role-based access control (RBAC)
+- Security groups for Role-Based Access Control (RBAC)
 
-This model reflects enterprise IAM principles of:
+This architecture reflects enterprise IAM principles of:
 
 - Least privilege
-- Centralized identity control
+- Centralized identity governance
 - Policy-driven enforcement
 - Auditability
 
@@ -112,7 +112,7 @@ This model reflects enterprise IAM principles of:
 | Lab-01 — Virtualization and Identity Infrastructure Foundation | Environment Buildout |
 | Lab-02 — AD DS Deployment | Identity Platform Deployment |
 | Lab-03 — Domain Controller Promotion | Identity Activation |
-| Lab-04 — OU Design and GPO Enforcement | Policy & Access Control |
+| Lab-04 — OU Design and GPO Enforcement | Policy & Access Control Enforcement |
 | Lab-05 — Identity Lifecycle Management | Joiner / Mover / Leaver |
 | Lab-06 — NTFS and Share Permissions | Resource Access Control |
 | Lab-07 — Service Accounts and Delegation | Privileged Identity Management |
@@ -124,15 +124,14 @@ This model reflects enterprise IAM principles of:
 
 This lab series demonstrates practical IAM implementation within a structured enterprise environment.
 
-Key focus areas:
+Core focus areas:
 
-- Identity provisioning and lifecycle management
 - Active Directory deployment and hardening
-- Group Policy configuration and enforcement
+- Identity provisioning and lifecycle management
 - Role-based access control (RBAC)
-- Hybrid identity integration (future Entra ID)
+- Group Policy configuration and enforcement
+- Hybrid identity preparation (future Entra ID integration)
 - Identity monitoring, logging, and auditing
-
 ---
 
 ## Quick Access
