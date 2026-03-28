@@ -54,7 +54,7 @@ This foundation establishes the security boundary for centralized identity manag
 - Internal Virtual Switch (isolated network)  
 
 ### Planned Identity Role
-- Domain Controller (AD DS, DNS)  
+- Primary Domain Controller (AD DS, DNS)
 
 ---
 
@@ -69,7 +69,7 @@ These controls establish a secure boundary for enterprise identity deployment.
 
 ---
 
-## Lab Steps and Evidence
+## Implementation & Validation
 
 ### 1. Host Resource Validation
 
@@ -200,11 +200,11 @@ The MRTG-DC01 virtual machine was successfully created within the Hyper-V enviro
 
 ## Outcome
 
-A secure virtualization environment was successfully established to support enterprise Active Directory deployment.
+A secure virtualization boundary was successfully established to support enterprise Active Directory deployment.
 
-The domain controller virtual machine (MRTG-DC01) was provisioned and prepared for identity services installation.
+The MRTG-DC01 virtual machine was provisioned and prepared for Domain Controller promotion.
 
-This infrastructure now serves as the controlled boundary for authentication, authorization, and policy enforcement within the MRTG IAM environment.
+This environment now serves as the controlled identity boundary for authentication, authorization, and policy enforcement within the MRTG IAM architecture.
 
 ---
 
