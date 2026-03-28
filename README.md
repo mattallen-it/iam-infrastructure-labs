@@ -82,8 +82,6 @@ Core identity components include:
 | Services         | AD DS, DNS, Group Policy              |
 | Client System    | CLIENT01 — Windows 11 Enterprise       |
 
-This architecture reflects enterprise IAM deployment practices in regulated environments.
-
 ---
 
 ## Identity Architecture
@@ -92,16 +90,16 @@ Authentication and authorization are centralized through Active Directory Domain
 
 Access control is enforced through:
 
-- Organizational Unit (OU) structure for policy scoping
-- Group Policy Objects (GPO) for configuration enforcement
-- Security groups for Role-Based Access Control (RBAC)
+- Organizational Unit (OU) structure for policy scoping  
+- Group Policy Objects (GPO) for configuration enforcement  
+- Security groups for Role-Based Access Control (RBAC)  
 
-This architecture reflects enterprise IAM principles of:
+This architecture supports:
 
-- Least privilege
-- Centralized identity governance
-- Policy-driven enforcement
-- Auditability
+- Least privilege  
+- Centralized identity governance  
+- Policy-driven enforcement  
+- Auditability  
 
 ---
 
@@ -112,7 +110,7 @@ This architecture reflects enterprise IAM principles of:
 | Lab-01 — Virtualization and Identity Infrastructure Foundation | Environment Buildout |
 | Lab-02 — AD DS Deployment | Identity Platform Deployment |
 | Lab-03 — Domain Controller Promotion | Identity Activation |
-| Lab-04 — OU Design and GPO Enforcement | Policy & Access Control Enforcement |
+| Lab-04 — OU Design and GPO Enforcement | Policy & Access Control |
 | Lab-05 — Identity Lifecycle Management | Joiner / Mover / Leaver |
 | Lab-06 — NTFS and Share Permissions | Resource Access Control |
 | Lab-07 — Service Accounts and Delegation | Privileged Identity Management |
@@ -122,16 +120,16 @@ This architecture reflects enterprise IAM principles of:
 
 ## Project Goal
 
-This lab series demonstrates practical IAM implementation within a structured enterprise environment.
+This lab series demonstrates structured IAM implementation within an enterprise environment.
 
 Core focus areas:
 
-- Active Directory deployment and hardening
-- Identity provisioning and lifecycle management
-- Role-based access control (RBAC)
-- Group Policy configuration and enforcement
-- Hybrid identity preparation (future Entra ID integration)
-- Identity monitoring, logging, and auditing
+- Active Directory deployment and hardening  
+- Identity provisioning and lifecycle management  
+- Role-based access control (RBAC)  
+- Group Policy configuration and enforcement  
+- Hybrid identity preparation (future Entra ID integration)  
+- Identity monitoring, logging, and auditing  
 ---
 
 ## Quick Access
