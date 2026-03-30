@@ -137,7 +137,8 @@ Core focus areas:
 
 ## Quick Access
 
-- [Lab-01 — Virtualization and Identity Infrastructure Foundation](./Lab-01-Virtualization-and-Identity-Infrastructure-Foundation/)
-- [Lab-02 — AD DS Deployment](./Lab-02-AD-DS-Deployment/)
-- [Lab-03 — Domain Controller Promotion](./Lab-03-Domain-Controller-Promotion/)
-- [Lab-04 — OU Design and GPO Enforcement](./Lab-04-OU-Design-and-GPO-Enforcement/)
+- [Lab-01 — Virtualization and Identity Infrastructure Foundation](Lab-01-Virtualization-and-Identity-Infrastructure-Foundation/README.md)
+- [Lab-02 — AD DS Deployment](Lab-02-AD-DS-Deployment/README.md)
+- [Lab-03 — Domain Controller Promotion](Lab-03-Domain-Controller-Promotion/README.md)
+- [Lab-04 — OU Design and GPO Enforcement](Lab-04-OU-Design-and-GPO-Enforcement/README.md)
+- [Lab-05 — Identity Lifecycle Management](Lab-05-Identity-Lifecycle-Management/README.md)
