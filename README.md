@@ -143,3 +143,4 @@ Core focus areas:
 - [Lab-04 — OU Design and GPO Enforcement](Lab-04-OU-Design-and-GPO-Enforcement/README.md)
 - [Lab-05 — Identity Lifecycle Management](Lab-05-Identity-Lifecycle-Management/README.md)
 - [Lab-06 — NTFS and Share Permissions](Lab-06-NTFS-and-Share-Permissions/README.md)
+- [Lab-07 — Service Accounts and Delegation](Lab-07-Service-Accounts-and-Delegation/README.md)
