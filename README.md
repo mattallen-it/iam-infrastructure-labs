@@ -108,7 +108,7 @@ This architecture supports:
 ## Lab Series Progression
 
 | Lab | Topic |
-|-----|--------|
+|---|---|
 | Lab-01 — Virtualization and Identity Infrastructure Foundation | Environment Buildout |
 | Lab-02 — AD DS Deployment | Identity Platform Deployment |
 | Lab-03 — Domain Controller Promotion | Identity Activation |
@@ -117,6 +117,7 @@ This architecture supports:
 | Lab-06 — NTFS and Share Permissions | Resource Access Control |
 | Lab-07 — Service Accounts and Delegation | Privileged Identity Management |
 | Lab-08 — Identity Monitoring and Auditing | Security & Compliance |
+| Lab-09 — Password Policy and Account Lockout Hardening | Authentication Hardening |
 
 ---
 
@@ -137,11 +138,12 @@ Core focus areas:
 
 ## Quick Access
 
-- [Lab-01 — Virtualization and Identity Infrastructure Foundation](Lab-01-Virtualization-and-Identity-Infrastructure-Foundation)
-- [Lab-02 — AD DS Deployment](Lab-02-AD-DS-Deployment)
-- [Lab-03 — Domain Controller Promotion](Lab-03-Domain-Controller-Promotion)
-- [Lab-04 — OU Design and GPO Enforcement](Lab-04-OU-Design-and-GPO-Enforcement)
-- [Lab-05 — Identity Lifecycle Management](Lab-05-Identity-Lifecycle-Management)
-- [Lab-06 — NTFS and Share Permissions](Lab-06-NTFS-and-Share-Permissions)
-- [Lab-07 — Service Accounts and Delegation](Lab-07-Service-Accounts-and-Delegation)
-- [Lab-08 — Identity Monitoring and Auditing](Lab-08-Identity-Monitoring-and-Auditing)
+- [Lab-01 — Virtualization and Identity Infrastructure Foundation](../Lab-01-Virtualization-and-Identity-Infrastructure-Foundation)
+- [Lab-02 — AD DS Deployment](../Lab-02-AD-DS-Deployment)
+- [Lab-03 — Domain Controller Promotion](../Lab-03-Domain-Controller-Promotion)
+- [Lab-04 — OU Design and GPO Enforcement](../Lab-04-OU-Design-and-GPO-Enforcement)
+- [Lab-05 — Identity Lifecycle Management](../Lab-05-Identity-Lifecycle-Management)
+- [Lab-06 — NTFS and Share Permissions](../Lab-06-NTFS-and-Share-Permissions)
+- [Lab-07 — Service Accounts and Delegation](../Lab-07-Service-Accounts-and-Delegation)
+- [Lab-08 — Identity Monitoring and Auditing](../Lab-08-Identity-Monitoring-and-Auditing)
+- [Lab-09 — Password Policy and Account Lockout Hardening](../Lab-09-Password-Policy-and-Account-Lockout-Hardening)
