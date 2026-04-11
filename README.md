@@ -118,6 +118,7 @@ This architecture supports:
 | Lab-07 — Service Accounts and Delegation | Privileged Identity Management |
 | Lab-08 — Identity Monitoring and Auditing | Security & Compliance |
 | Lab-09 — Password Policy and Account Lockout Hardening | Authentication Hardening |
+| Lab-10 — Fine-Grained Password Policies for Tiered Identity Control | Tiered Authentication Control |
 
 ---
 
